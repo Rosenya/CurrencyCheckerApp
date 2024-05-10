@@ -25,9 +25,17 @@ public class SymbolService {
         return symbolRepository.findById(id).orElse(null);
     }
 
+    public Symbol getSymbolByName(String name){
+        return symbolRepository.findByName(name);
+    }
+
+    public void saveSymbol(Symbol symbol) {
+        symbolRepository.save(symbol);
+    }
+
     public void addSymbol(Symbol symbol){
         symbolRepository.save(symbol);
-        log.info("Dodano symbol: " + symbol.getName());
+        log.info("Added symbol: " + symbol.getName());
     }
 
     public void editSymbol(Symbol symbol){
@@ -36,6 +44,6 @@ public class SymbolService {
 
     public void deleteSymbolById(Long id){
         symbolRepository.deleteById(id);
-        log.info("Usunięto symbol: " + id);
+        log.info("Deleted symbol: " + id);
     }
 }

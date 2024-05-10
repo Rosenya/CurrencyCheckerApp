@@ -2,8 +2,10 @@ package com.ArkadiaPlocienniczak.CurrencyCheckerApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+@EnableScheduling
 public class CurrencyCheckerAppApplication {
 
 	public static void main(String[] args) {

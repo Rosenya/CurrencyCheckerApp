@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.ArrayList;
-import java.util.Currency;
 import java.util.List;
 
 @Entity
@@ -14,11 +13,11 @@ public class Symbol {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "symbols_id")
+    @Column(name = "symbol_id")
     private Long id;
     @Column
     private String name;
 
-    @OneToMany(mappedBy = "symbols", cascade = CascadeType.ALL)
-    private List<Value> values = new ArrayList<>();
+    @OneToMany(mappedBy = "symbol", cascade = CascadeType.ALL)
+    private List<Price> prices = new ArrayList<>();
 }

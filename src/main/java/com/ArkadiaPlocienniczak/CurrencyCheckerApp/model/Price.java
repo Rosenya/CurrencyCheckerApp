@@ -8,20 +8,20 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
-@Table(name = "values")
-public class Value {
+@Table(name = "prices")
+public class Price {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "values_id")
+    @Column(name = "price_id")
     private Long id;
     @Column
-    private BigDecimal value;
+    private BigDecimal price;
     @Column
     private LocalDateTime timeStamp;
 
     @ManyToOne
-    @JoinColumn(name = "symbols_id")
+    @JoinColumn(name = "symbol_id")
     private Symbol symbol;
 
 

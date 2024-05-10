@@ -1,5 +1,6 @@
 package com.ArkadiaPlocienniczak.CurrencyCheckerApp.controller;
 
+import com.ArkadiaPlocienniczak.CurrencyCheckerApp.config.SymbolDTO;
 import com.ArkadiaPlocienniczak.CurrencyCheckerApp.model.Symbol;
 import com.ArkadiaPlocienniczak.CurrencyCheckerApp.service.SymbolService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -14,7 +15,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 
-@Controller
+@RestController
+@RequestMapping("/symbols")
 public class SymbolController {
 
     private final SymbolService symbolService;
@@ -23,44 +25,44 @@ public class SymbolController {
         this.symbolService = symbolService;
     }
 
-    @GetMapping("/{symbols}")
-    public ResponseEntity<List<Symbol>> getSymbol(@PathVariable(required = false, name = "symbolId") Long id){
-        if(id == null){
-            return new ResponseEntity<>(symbolService.getSymbol(), HttpStatus.OK);
+    @GetMapping
+    public ResponseEntity<List<Symbol>> getSymbols() {
+        List<Symbol> symbols = symbolService.getSymbol();
+        return new ResponseEntity<>(symbols, HttpStatus.OK);
+    }
+
+    @GetMapping("/{symbolId}")
+    public ResponseEntity<Symbol> getSymbolById(@PathVariable Long symbolId) {
+        Symbol symbol = symbolService.getSymbolById(symbolId);
+        if (symbol != null) {
+            return new ResponseEntity<>(symbol, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        Symbol symbol = symbolService.getSymbolById(id);
-        return new ResponseEntity(symbol, HttpStatus.OK);
     }
 
     @PostMapping("/{symbols}/addSymbol")
     public ResponseEntity addSymbol(@RequestBody Symbol symbol){
-
-        try{
-            ObjectMapper objectMapper = new ObjectMapper();
-            URL apiUrl = new URL("https://api.binance.com/api/v3/ticker?symbol=" + symbol.getName());
-            String symbolName = jsonNode.get("symbol").asText();
-            symbol.setName(symbolName);
             symbolService.addSymbol(symbol);
-
-        symbolService.addSymbol(symbol);
-        return ResponseEntity.ok(symbol);
-        } catch (IOException e){
-            e.printStackTrace();
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
-        }
+            return ResponseEntity.ok(symbol);
     }
 
 
     @PutMapping("/{symbols}/editSymbol")
-    public ResponseEntity editCategory(@RequestBody Symbol symbol){
-        symbolService.editSymbol(symbol);
-        return ResponseEntity.ok(symbol);
+    public ResponseEntity editSymbol(@PathVariable("symbols") Long id, @RequestBody Symbol symbol){
+        Symbol existingSymbol = symbolService.getSymbolById(id);
+        if (existingSymbol == null) {
+            return ResponseEntity.notFound().build();
+        }
+        existingSymbol.setName(symbol.getName());
+        symbolService.editSymbol(existingSymbol);
+        return ResponseEntity.ok(existingSymbol);
     }
 
     @DeleteMapping("/{symbols}/deleteSymbol")
     public ResponseEntity deleteSymbol(@RequestParam("id") Long id){
         symbolService.deleteSymbolById(id);
-        return ResponseEntity.ok(null);
+        return ResponseEntity.ok().build();
     }
 
 }
