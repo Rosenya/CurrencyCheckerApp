@@ -25,7 +25,7 @@ public class SymbolController {
         this.symbolService = symbolService;
     }
 
-    @GetMapping
+    @GetMapping("/{symbols}")
     public ResponseEntity<List<Symbol>> getSymbols() {
         List<Symbol> symbols = symbolService.getSymbol();
         return new ResponseEntity<>(symbols, HttpStatus.OK);

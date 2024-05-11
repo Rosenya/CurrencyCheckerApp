@@ -16,13 +16,22 @@ public class Price {
     @Column(name = "price_id")
     private Long id;
     @Column
-    private BigDecimal price;
+    private BigDecimal lastPrice;
     @Column
     private LocalDateTime timeStamp;
 
-    @ManyToOne
-    @JoinColumn(name = "symbol_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "symbol")
     private Symbol symbol;
+
+    @Override
+    public String toString() {
+        return "Price{" +
+                "id=" + id +
+                ", lastPrice=" + lastPrice +
+                ", timeStamp=" + timeStamp +
+                '}';
+    }
 
 
 }

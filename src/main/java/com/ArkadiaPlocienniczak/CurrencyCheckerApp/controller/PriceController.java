@@ -57,11 +57,11 @@ public class PriceController {
                 String apiUrl = "https://api.binance.com/api/v3/ticker?symbol=" + symbol.getName().toUpperCase();
                 PriceDTO response = fetchPriceFromApi(apiUrl);
 
-                if (response != null && response.getPrice() != null) {
-                    BigDecimal priceValue = response.getPrice();
+                if (response != null && response.getLastPrice() != null) {
+                    BigDecimal priceValue = response.getLastPrice();
 
                     Price latestPrice = new Price();
-                    latestPrice.setPrice(priceValue);
+                    latestPrice.setLastPrice(priceValue);
                     latestPrice.setTimeStamp(LocalDateTime.now());
                     latestPrice.setSymbol(symbol);
 
@@ -74,12 +74,8 @@ public class PriceController {
         }
     }
 
-    private PriceDTO fetchPriceFromApi(String apiUrl)  {
-        try {
-            return restTemplate.getForObject(apiUrl, PriceDTO.class);
-        } catch (Exception e) {
-            System.err.println("Failed to fetch price data from Binance API: " + e.getMessage());
-            return null;
-        }
+    private PriceDTO fetchPriceFromApi(String apiUrl) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.readValue(new URL(apiUrl), PriceDTO.class);
     }
 }

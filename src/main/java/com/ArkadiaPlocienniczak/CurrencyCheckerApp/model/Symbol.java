@@ -18,6 +18,6 @@ public class Symbol {
     @Column
     private String name;
 
-    @OneToMany(mappedBy = "symbol", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "symbol", fetch = FetchType.EAGER)
     private List<Price> prices = new ArrayList<>();
 }

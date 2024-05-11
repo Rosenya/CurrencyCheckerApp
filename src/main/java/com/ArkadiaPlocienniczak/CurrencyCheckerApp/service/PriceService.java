@@ -1,10 +1,10 @@
 package com.ArkadiaPlocienniczak.CurrencyCheckerApp.service;
 
 import com.ArkadiaPlocienniczak.CurrencyCheckerApp.model.Price;
-import com.ArkadiaPlocienniczak.CurrencyCheckerApp.model.Symbol;
 import com.ArkadiaPlocienniczak.CurrencyCheckerApp.repository.PriceRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -28,8 +28,8 @@ public class PriceService {
         return priceRepository.findById(id).orElse(null);
     }
 
+    @Transactional
     public void addPrice(Price price){
-        log.info("Before saving price: " + price);
         priceRepository.save(price);
         log.info("Added latest price: " + price);
     }
