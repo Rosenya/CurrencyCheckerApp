@@ -20,4 +20,13 @@ public class Symbol {
 
     @OneToMany(mappedBy = "symbol", fetch = FetchType.EAGER)
     private List<Price> prices = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "Symbol{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", prices=" + prices +
+                '}';
+    }
 }

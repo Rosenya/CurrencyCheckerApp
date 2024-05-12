@@ -10,11 +10,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -25,8 +23,6 @@ public class PriceController {
 
     private final PriceService priceService;
     private final SymbolService symbolService;
-
-    private final RestTemplate restTemplate = new RestTemplate();
 
     public PriceController(PriceService priceService, SymbolService symbolService) {
         this.priceService = priceService;

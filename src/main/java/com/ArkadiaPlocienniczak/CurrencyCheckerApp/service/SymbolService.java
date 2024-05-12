@@ -35,10 +35,6 @@ public class SymbolService {
         return symbol;
     }
 
-    public void saveSymbol(Symbol symbol) {
-        symbolRepository.save(symbol);
-    }
-
     public void addSymbol(Symbol symbol){
         symbolRepository.save(symbol);
         log.info("Added symbol: " + symbol.getName());

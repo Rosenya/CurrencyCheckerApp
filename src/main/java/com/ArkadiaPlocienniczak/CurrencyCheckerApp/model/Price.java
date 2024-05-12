@@ -32,6 +32,4 @@ public class Price {
                 ", timeStamp=" + timeStamp +
                 '}';
     }
-
-
 }
