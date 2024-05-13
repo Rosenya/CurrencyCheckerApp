@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class PriceService {
 
-    private PriceRepository priceRepository;
+    private final PriceRepository priceRepository;
 
     public PriceService(PriceRepository priceRepository) {
         this.priceRepository = priceRepository;
@@ -32,9 +32,5 @@ public class PriceService {
         log.info("Added latest price: " + price);
     }
 
-    public void deletePast24hById(Long id){
-        priceRepository.deleteById(id);
-        log.info("Deleted value: " + id);
-    }
 }
 

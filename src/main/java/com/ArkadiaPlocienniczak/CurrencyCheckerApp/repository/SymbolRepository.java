@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SymbolRepository extends JpaRepository<Symbol, Long> {
-    Symbol findByName(String name);
+//    Symbol findByName(String name);
 }

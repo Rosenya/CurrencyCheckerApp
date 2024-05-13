@@ -25,6 +25,7 @@ public class SymbolController {
         this.symbolService = symbolService;
     }
 
+//    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/{symbols}")
     public ResponseEntity<List<Symbol>> getSymbols() {
         List<Symbol> symbols = symbolService.getSymbol();
@@ -48,21 +49,15 @@ public class SymbolController {
     }
 
 
-    @PutMapping("/{symbols}/editSymbol")
-    public ResponseEntity editSymbol(@PathVariable("symbols") Long id, @RequestBody Symbol symbol){
+    @PutMapping("/{symbols}/updateSymbol")
+    public ResponseEntity updateSymbol(@PathVariable("symbols") Long id, @RequestBody Symbol symbol){
         Symbol existingSymbol = symbolService.getSymbolById(id);
         if (existingSymbol == null) {
             return ResponseEntity.notFound().build();
         }
         existingSymbol.setName(symbol.getName());
-        symbolService.editSymbol(existingSymbol);
+        symbolService.updateSymbol(existingSymbol);
         return ResponseEntity.ok(existingSymbol);
-    }
-
-    @DeleteMapping("/{symbols}/deleteSymbol")
-    public ResponseEntity deleteSymbol(@RequestParam("id") Long id){
-        symbolService.deleteSymbolById(id);
-        return ResponseEntity.ok().build();
     }
 
 }

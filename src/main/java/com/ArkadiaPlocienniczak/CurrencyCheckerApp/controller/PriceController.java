@@ -29,6 +29,7 @@ public class PriceController {
         this.symbolService = symbolService;
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping
     public ResponseEntity<List<Price>> getAllPrice() {
         List<Price> prices = priceService.getAllPrice();
@@ -42,6 +43,18 @@ public class PriceController {
             return new ResponseEntity<>(price, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @CrossOrigin(origins = "http://localhost:3000")
+    @GetMapping("/last/{symbol}")
+    public ResponseEntity<List<Price>> getLastPriceForSymbol() {
+        List<Symbol> symbols = symbolService.getSymbol();
+        for (Symbol symbol : symbols) {
+            List<Price> prices = priceService.getAllPrice();
+            String apiUrl = "https://api.binance.com/api/v3/ticker?symbol=" + symbol.getName().toUpperCase();
+            return new ResponseEntity<>(priceService.getLastPrice(), HttpStatus.OK);
+            return new ResponseEntity<>(prices, HttpStatus.OK);
         }
     }
 
