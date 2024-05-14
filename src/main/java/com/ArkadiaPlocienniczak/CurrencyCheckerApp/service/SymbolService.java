@@ -29,12 +29,6 @@ public class SymbolService {
 //        return symbolRepository.findByName(name);
 //    }
 
-//    public Symbol loadSymbolWithPrices(String name) {
-//        Symbol symbol = symbolRepository.findByName(name);
-//        symbol.getPrices().size();
-//        return symbol;
-//    }
-
     public void addSymbol(Symbol symbol){
         symbolRepository.save(symbol);
         log.info("Added symbol: " + symbol.getName());

@@ -37,36 +37,36 @@ interface RequestPrice<T>{
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure()
   
-  const[requestSymbol,setRequestSymbol]=useState<RequestSymbol<SymbolResponse[]>
-  >({
-    data: [],
-    });
+  // const[requestSymbol,setRequestSymbol]=useState<RequestSymbol<SymbolResponse[]>
+  // >({
+  //   data: [],
+  //   });
 
     const [lastPrice,setRequestPrice]=useState<RequestPrice<Price[]>
     >({
       data: [],
       });  
 
-const fetchSymbol = useCallback(async () => {
-  try {
-    setRequestSymbol({ data: [] });
-    const symbols = await SymbolForPriceDataApi.getSymbolForPrice();
-    console.log(symbols);
-    setRequestSymbol({ data: symbols.data });
-  } catch (error) {
-    console.error('Błąd podczas pobierania symboli:', error);
-    setRequestSymbol({ data: [] });
-  }
-}, []);
+// const fetchSymbol = useCallback(async () => {
+//   try {
+//     setRequestSymbol({ data: [] });
+//     const symbols = await SymbolForPriceDataApi.getSymbolForPrice();
+//     console.log(symbols);
+//     setRequestSymbol({ data: symbols.data });
+//   } catch (error) {
+//     console.error('Błąd podczas pobierania symboli:', error);
+//     setRequestSymbol({ data: [] });
+//   }
+// }, []);
 
-useEffect(() => {
-  fetchSymbol();
-}, [fetchSymbol]);
+// useEffect(() => {
+//   fetchSymbol();
+// }, [fetchSymbol]);
 
 const fetchLastPriceForSymbol = useCallback(async () => {
   try {
     setRequestPrice({ data: [] });
-    const lastPrice = await PriceDataApi.getLastPriceBySymbol(symbol);
+    const lastPrice = await PriceDataApi.getLastPriceByGivenSymbol();
     console.log(lastPrice);
     setRequestPrice({ data: lastPrice.data });
   } catch (error) {
@@ -80,7 +80,7 @@ useEffect(() => {
 }, []);
 
   const handleLastPriceClick = async (symbol: string) => {
-    await fetchLastPriceForSymbol(symbol);
+    await fetchLastPriceForSymbol();
   };
 
   return (

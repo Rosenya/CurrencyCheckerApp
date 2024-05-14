@@ -3,7 +3,7 @@ import { Price } from "../models/Price";
 import { SymbolResponse } from "../models/SymbolResponse";
 
 export class PriceDataApi {
-    static getLastPriceBySymbol = async () =>
+    static getLastPriceByGivenSymbol = async () =>
       await axios.get<Price[]>("http://localhost:9000/last/{symbol}");
 
     static getSymbolForPrize = async () =>

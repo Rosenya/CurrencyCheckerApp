@@ -18,6 +18,5 @@ public class PriceDTO {
     private Long id;
     @JsonProperty("lastPrice")
     private BigDecimal lastPrice;
-    private LocalDateTime timestamp;
     private String symbol;
 }

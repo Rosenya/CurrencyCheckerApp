@@ -16,6 +16,7 @@ import java.math.BigDecimal;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/last")
@@ -48,17 +49,32 @@ public class PriceController {
 
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/last/{symbol}")
-    public ResponseEntity<List<Price>> getLastPriceForSymbol() {
-        List<Symbol> symbols = symbolService.getSymbol();
-        for (Symbol symbol : symbols) {
-            List<Price> prices = priceService.getAllPrice();
-            String apiUrl = "https://api.binance.com/api/v3/ticker?symbol=" + symbol.getName().toUpperCase();
-            return new ResponseEntity<>(priceService.getLastPrice(), HttpStatus.OK);
-            return new ResponseEntity<>(prices, HttpStatus.OK);
-        }
+    public ResponseEntity<PriceDTO> getLastPriceForGivenSymbol(@PathVariable String symbol) {
+        Optional<PriceDTO> lastPrice = priceService.getLastPriceForSymbol(symbol);
+        return lastPrice
+                .map(priceDTO -> new ResponseEntity<>(priceDTO, HttpStatus.OK))
+                .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 
-    @Scheduled(fixedRate = 600000)
+    @CrossOrigin(origins = "http://localhost:3000")
+    @GetMapping("/lastDay/{symbol}")
+    public ResponseEntity<PriceDTO> getLastForAllSymbolsForLastDay() {
+        Optional<PriceDTO> lastPrice = priceService.getLastForAllSymbolsForLastDay();
+        return lastPrice
+                .map(priceDTO -> new ResponseEntity<>(priceDTO, HttpStatus.OK))
+                .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
+    }
+
+    @CrossOrigin(origins = "http://localhost:3000")
+    @GetMapping("/lastAll")
+    public ResponseEntity<PriceDTO> getLastPriceForAllSymbols() {
+        Optional<PriceDTO> lastPrice = priceService.getLastPriceForAllSymbols();
+        return lastPrice
+                .map(priceDTO -> new ResponseEntity<>(priceDTO, HttpStatus.OK))
+                .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
+    }
+
+    @Scheduled(cron = "${job.schedule}")
     public void refreshLatestPrices() {
         List<Symbol> symbols = symbolService.getSymbol();
         for (Symbol symbol : symbols) {
