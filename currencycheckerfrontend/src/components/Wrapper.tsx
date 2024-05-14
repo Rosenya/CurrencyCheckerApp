@@ -3,7 +3,6 @@ import {
     Heading,
     Stack
 } from "@chakra-ui/react";
-import Navbar from "./Navbar";
   
   interface WrapperProps {
     heading?: string;

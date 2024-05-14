@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -41,34 +42,41 @@ public class PriceService {
         Optional<Symbol> symbolObject = symbolRepository.findByName(symbol);
 
         if (symbolObject.isPresent()) {
-            return priceRepository.findFirstBySymbolOrderByTimeStampDesc(symbolObject.get()).map(priceMapper::priceToDTO);
+            return priceRepository.findFirstBySymbolOrderByTimeStampDesc(symbolObject.get())
+                    .map(priceMapper::priceToDTO);
         } else {
             return Optional.empty();
         }
     }
 
-    public Optional<PriceDTO> getLastForAllSymbolsForLastDay() {
+    public List<PriceDTO> getLastPriceForAllSymbolsForLastDay() {
         LocalDateTime lastPriceForTwentyFourHours = LocalDateTime.now().minusHours(24);
         List<Symbol> symbols = symbolRepository.findAll();
-
-        if (!symbols.isEmpty()) {
-            Symbol lastSymbol = symbols.get(symbols.size() - 1);
-            return priceRepository.findLastDayByAllSymbolsOrderByTimeStampDesc(lastSymbol, lastPriceForTwentyFourHours).map(priceMapper::priceToDTO);
-        } else {
-            return Optional.empty();
+        List<PriceDTO> priceDTOs = new ArrayList<>();
+        for (Symbol symbol : symbols) {
+            List<Price> lastPricesForSymbol = priceRepository.findPricesBySymbolAndTimeStampAfter(symbol, lastPriceForTwentyFourHours);
+            for (Price price : lastPricesForSymbol) {
+                priceDTOs.add(priceMapper.priceToDTO(price));
+            }
         }
+
+        return priceDTOs;
     }
 
-    public Optional<PriceDTO> getLastPriceForAllSymbols() {
-        List<Symbol> symbols = symbolRepository.findAll();
+    public List<PriceDTO> getLastPriceForAllSymbols() {
+            List<Symbol> symbols = symbolRepository.findAll();
+            List<PriceDTO> priceDTOs = new ArrayList<>();
+        for (Symbol symbol : symbols) {
+            List<Price> lastPrices = priceRepository.findFirstListBySymbolOrderByTimeStampDesc(symbol);
 
-        if (!symbols.isEmpty()) {
-            Symbol lastSymbol = symbols.get(symbols.size() - 1);
-            return priceRepository.findFirstBySymbolOrderByTimeStampDesc(lastSymbol).map(priceMapper::priceToDTO);
-        } else {
-            return Optional.empty();
+            if (!lastPrices.isEmpty()) {
+                Price lastPrice = lastPrices.get(0);
+                PriceDTO priceDTO = priceMapper.priceToDTO(lastPrice);
+                priceDTOs.add(priceDTO);
         }
     }
+    return priceDTOs;
+}
 
     @Transactional
     public void addPrice(Price price){

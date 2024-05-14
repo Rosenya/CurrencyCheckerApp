@@ -4,14 +4,11 @@ import { SymbolResponse } from "../models/SymbolResponse";
 
 export class PriceDataApi {
     static getLastPriceByGivenSymbol = async () =>
-      await axios.get<Price[]>("http://localhost:9000/last/{symbol}");
-
-    static getSymbolForPrize = async () =>
-      await axios.get<SymbolResponse[]>("http://localhost:9000/{symbols}");
+      await axios.get<Price[]>("http://localhost:3000/last/{symbol}");
 
     static getLastDayPriceBySymbol = async () =>
-        await axios.get<Price[]>("http://localhost:9000/lastday/{symbol}");
+        await axios.get<Price[]>("http://localhost:3000/lastday/{symbol}");
 
     static getLastPriceForAllSymbol = async () =>
-        await axios.get<Price[]>("http://localhost:9000/lastAll");
+        await axios.get<Price[]>("http://localhost:3000/lastAll");
 }

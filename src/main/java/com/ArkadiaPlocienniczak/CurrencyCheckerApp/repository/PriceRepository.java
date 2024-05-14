@@ -12,5 +12,6 @@ import java.util.Optional;
 @Repository
 public interface PriceRepository extends JpaRepository<Price, Long> {
     Optional<Price> findFirstBySymbolOrderByTimeStampDesc(Symbol symbol);
-    Optional<Price> findLastDayByAllSymbolsOrderByTimeStampDesc(Symbol symbol, LocalDateTime lastTwentyFourHours);
+    List<Price> findFirstListBySymbolOrderByTimeStampDesc(Symbol symbol);
+    List<Price> findPricesBySymbolAndTimeStampAfter(Symbol symbol, LocalDateTime lastTwentyFourHours);
 }

@@ -59,22 +59,26 @@ public class PriceController {
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/lastDay/{symbol}")
     public ResponseEntity<PriceDTO> getLastForAllSymbolsForLastDay() {
-        Optional<PriceDTO> lastPrice = priceService.getLastForAllSymbolsForLastDay();
-        return lastPrice
-                .map(priceDTO -> new ResponseEntity<>(priceDTO, HttpStatus.OK))
-                .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
+        List<PriceDTO> lastPrices = priceService.getLastPriceForAllSymbolsForLastDay();
+        if (lastPrices.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        } else {
+            return ResponseEntity.ok((PriceDTO) lastPrices);
+        }
     }
 
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/lastAll")
     public ResponseEntity<PriceDTO> getLastPriceForAllSymbols() {
-        Optional<PriceDTO> lastPrice = priceService.getLastPriceForAllSymbols();
-        return lastPrice
-                .map(priceDTO -> new ResponseEntity<>(priceDTO, HttpStatus.OK))
-                .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
+        List<PriceDTO> lastPrices = priceService.getLastPriceForAllSymbols();
+        if (lastPrices.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        } else {
+            return ResponseEntity.ok((PriceDTO) lastPrices);
+        }
     }
 
-    @Scheduled(cron = "${job.schedule}")
+    @Scheduled(fixedRate = 600000)
     public void refreshLatestPrices() {
         List<Symbol> symbols = symbolService.getSymbol();
         for (Symbol symbol : symbols) {

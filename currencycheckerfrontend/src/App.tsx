@@ -3,7 +3,7 @@ import { StartPage } from './pages/StartPage';
 import { ChakraProvider } from '@chakra-ui/react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Wrapper } from './components/Wrapper';
-import Navbar from './components/Navbar';
+import SymbolList from './components/SymbolList';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <ChakraProvider>
           <BrowserRouter>
           <Wrapper heading='Currency Checker App'>
-            <Navbar/>
+            <SymbolList/>
             <Routes>
               <Route path="/" element={<StartPage />}></Route>
             </Routes>    
