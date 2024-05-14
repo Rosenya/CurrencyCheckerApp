@@ -1,6 +1,5 @@
 import axios from "axios";
 import { Price } from "../models/Price";
-import { SymbolResponse } from "../models/SymbolResponse";
 
 export class PriceDataApi {
     static getLastPriceByGivenSymbol = async () =>

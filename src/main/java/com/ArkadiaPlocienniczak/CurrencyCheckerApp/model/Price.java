@@ -21,7 +21,7 @@ public class Price {
     private LocalDateTime timeStamp;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "symbol")
+    @JoinColumn(name = "symbol_name", referencedColumnName = "name")
     private Symbol symbol;
 
     @Override
