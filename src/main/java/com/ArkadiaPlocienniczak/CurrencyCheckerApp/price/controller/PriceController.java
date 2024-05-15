@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/price")
 public class PriceController {
 
     private final PriceService priceService;
