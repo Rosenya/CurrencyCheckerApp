@@ -34,6 +34,7 @@ public class PriceServiceUnitTest {
     private PriceService priceService;
     @InjectMocks
     private SymbolService symbolService;
+    @Mock
     private SymbolRepository symbolRepository;
 
     @Before(" ")
@@ -64,15 +65,27 @@ public class PriceServiceUnitTest {
         // Given
         Symbol symbol = new Symbol();
         Price price = new Price();
+        price.setSymbol(symbol);
+        price.setId(1L);
+        price.setLastPrice(new BigDecimal("150.00"));
 
-        when(symbolRepository.findByName(symbol.getName()));
+        symbol.setName("AAPL");
+
+        when(symbolRepository.findByName("AAPL")).thenReturn(Optional.of(symbol));
         when(priceRepository.findFirstBySymbolOrderByTimeStampDesc(symbol)).thenReturn(Optional.of(price));
+
+        PriceMapper pm = new PriceMapper();
+        PriceDTO mockedPriceDTO = pm.priceToDTO(price);
+        mockedPriceDTO.setId(price.getId());
+
+        when(priceMapper.priceToDTO(price)).thenReturn(mockedPriceDTO);
+
 
         // When
         Optional<PriceDTO> result = priceService.getLastPriceForSymbol(symbol.getName());
 
         // Then
-        Optional<PriceDTO> expectedDTO = Optional.of(new PriceDTO(1L, new BigDecimal(150.00), "AAPL"));
+        Optional<PriceDTO> expectedDTO = Optional.of(new PriceDTO(1L, new BigDecimal("150.00"), "AAPL"));
         assertEquals(expectedDTO, result);
 
         verify(symbolRepository, times(1)).findByName(symbol.getName());
