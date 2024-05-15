@@ -1,0 +1,3824 @@
+[
+	{
+		"price_id" : 1,
+		"last_price" : 60895.35,
+		"time_stamp" : "2024-05-11 22:37:23.166843",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 2,
+		"last_price" : 81.47,
+		"time_stamp" : "2024-05-11 22:37:23.534673",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 3,
+		"last_price" : 2918.20,
+		"time_stamp" : "2024-05-11 22:37:23.834021",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 4,
+		"last_price" : 60900.00,
+		"time_stamp" : "2024-05-11 22:37:52.104953",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 5,
+		"last_price" : 81.47,
+		"time_stamp" : "2024-05-11 22:37:52.458215",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 6,
+		"last_price" : 2918.40,
+		"time_stamp" : "2024-05-11 22:37:52.759302",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 7,
+		"last_price" : 60945.82,
+		"time_stamp" : "2024-05-11 22:47:51.051992",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 8,
+		"last_price" : 81.59,
+		"time_stamp" : "2024-05-11 22:47:51.353255",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 9,
+		"last_price" : 2921.85,
+		"time_stamp" : "2024-05-11 22:47:51.655838",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 10,
+		"last_price" : 60966.01,
+		"time_stamp" : "2024-05-11 23:01:37.422666",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 11,
+		"last_price" : 81.68,
+		"time_stamp" : "2024-05-11 23:01:38.285155",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 12,
+		"last_price" : 2920.79,
+		"time_stamp" : "2024-05-11 23:01:39.123661",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 13,
+		"last_price" : 60887.71,
+		"time_stamp" : "2024-05-11 23:11:36.901190",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 14,
+		"last_price" : 81.61,
+		"time_stamp" : "2024-05-11 23:11:37.729566",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 15,
+		"last_price" : 2918.99,
+		"time_stamp" : "2024-05-11 23:11:38.027141",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 16,
+		"last_price" : 60921.99,
+		"time_stamp" : "2024-05-11 23:21:36.895879",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 17,
+		"last_price" : 81.62,
+		"time_stamp" : "2024-05-11 23:21:37.198256",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 18,
+		"last_price" : 2920.42,
+		"time_stamp" : "2024-05-11 23:21:37.504362",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 19,
+		"last_price" : 61320.00,
+		"time_stamp" : "2024-05-12 21:01:47.024442",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 20,
+		"last_price" : 81.76,
+		"time_stamp" : "2024-05-12 21:01:47.889214",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 21,
+		"last_price" : 2926.01,
+		"time_stamp" : "2024-05-12 21:01:48.715732",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 22,
+		"last_price" : 61316.00,
+		"time_stamp" : "2024-05-12 21:05:41.861238",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 23,
+		"last_price" : 81.81,
+		"time_stamp" : "2024-05-12 21:05:42.209600",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 24,
+		"last_price" : 2925.71,
+		"time_stamp" : "2024-05-12 21:05:42.510820",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 25,
+		"last_price" : 61256.33,
+		"time_stamp" : "2024-05-12 21:15:41.007584",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 26,
+		"last_price" : 81.74,
+		"time_stamp" : "2024-05-12 21:15:41.312544",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 27,
+		"last_price" : 2922.30,
+		"time_stamp" : "2024-05-12 21:15:42.135735",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 28,
+		"last_price" : 61317.15,
+		"time_stamp" : "2024-05-12 21:25:41.023087",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 29,
+		"last_price" : 81.77,
+		"time_stamp" : "2024-05-12 21:25:41.326140",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 30,
+		"last_price" : 2926.10,
+		"time_stamp" : "2024-05-12 21:25:41.626607",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 31,
+		"last_price" : 61412.10,
+		"time_stamp" : "2024-05-12 21:35:41.083111",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 32,
+		"last_price" : 81.78,
+		"time_stamp" : "2024-05-12 21:35:41.388617",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 33,
+		"last_price" : 2929.61,
+		"time_stamp" : "2024-05-12 21:35:41.690357",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 34,
+		"last_price" : 61390.87,
+		"time_stamp" : "2024-05-12 21:45:41.071964",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 35,
+		"last_price" : 81.80,
+		"time_stamp" : "2024-05-12 21:45:41.375348",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 36,
+		"last_price" : 2928.49,
+		"time_stamp" : "2024-05-12 21:45:41.671252",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 37,
+		"last_price" : 61391.23,
+		"time_stamp" : "2024-05-12 21:57:36.340561",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 38,
+		"last_price" : 81.83,
+		"time_stamp" : "2024-05-12 21:57:37.214867",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 39,
+		"last_price" : 2928.61,
+		"time_stamp" : "2024-05-12 21:57:38.044121",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 40,
+		"last_price" : 61319.99,
+		"time_stamp" : "2024-05-12 22:07:35.720906",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 41,
+		"last_price" : 81.83,
+		"time_stamp" : "2024-05-12 22:07:36.022042",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 42,
+		"last_price" : 2924.33,
+		"time_stamp" : "2024-05-12 22:07:36.330561",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 43,
+		"last_price" : 61340.83,
+		"time_stamp" : "2024-05-12 22:17:35.776393",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 44,
+		"last_price" : 81.90,
+		"time_stamp" : "2024-05-12 22:17:36.081084",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 45,
+		"last_price" : 2927.00,
+		"time_stamp" : "2024-05-12 22:17:36.384068",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 46,
+		"last_price" : 61375.08,
+		"time_stamp" : "2024-05-12 22:27:35.804485",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 47,
+		"last_price" : 81.91,
+		"time_stamp" : "2024-05-12 22:27:36.106718",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 48,
+		"last_price" : 2928.64,
+		"time_stamp" : "2024-05-12 22:27:36.411937",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 49,
+		"last_price" : 61390.00,
+		"time_stamp" : "2024-05-12 22:37:35.804094",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 50,
+		"last_price" : 81.93,
+		"time_stamp" : "2024-05-12 22:37:36.107440",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 51,
+		"last_price" : 2927.19,
+		"time_stamp" : "2024-05-12 22:37:36.416104",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 52,
+		"last_price" : 61320.01,
+		"time_stamp" : "2024-05-12 22:47:35.711269",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 53,
+		"last_price" : 81.77,
+		"time_stamp" : "2024-05-12 22:47:36.010432",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 54,
+		"last_price" : 2923.26,
+		"time_stamp" : "2024-05-12 22:47:36.318724",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 55,
+		"last_price" : 62742.02,
+		"time_stamp" : "2024-05-13 19:41:15.557735",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 56,
+		"last_price" : 81.34,
+		"time_stamp" : "2024-05-13 19:41:15.901078",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 57,
+		"last_price" : 2942.47,
+		"time_stamp" : "2024-05-13 19:41:16.212511",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 58,
+		"last_price" : 62785.08,
+		"time_stamp" : "2024-05-13 19:51:15.019760",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 59,
+		"last_price" : 81.28,
+		"time_stamp" : "2024-05-13 19:51:15.315955",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 60,
+		"last_price" : 2940.00,
+		"time_stamp" : "2024-05-13 19:51:15.610345",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 61,
+		"last_price" : 62768.01,
+		"time_stamp" : "2024-05-13 20:01:14.976319",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 62,
+		"last_price" : 81.26,
+		"time_stamp" : "2024-05-13 20:01:15.275737",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 63,
+		"last_price" : 2939.44,
+		"time_stamp" : "2024-05-13 20:01:15.578332",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 64,
+		"last_price" : 62675.56,
+		"time_stamp" : "2024-05-13 20:11:15.516649",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 65,
+		"last_price" : 80.79,
+		"time_stamp" : "2024-05-13 20:11:15.823676",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 66,
+		"last_price" : 2935.26,
+		"time_stamp" : "2024-05-13 20:11:16.645985",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 67,
+		"last_price" : 62705.98,
+		"time_stamp" : "2024-05-13 20:21:15.014282",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 68,
+		"last_price" : 80.92,
+		"time_stamp" : "2024-05-13 20:21:15.309175",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 69,
+		"last_price" : 2936.71,
+		"time_stamp" : "2024-05-13 20:21:15.612942",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 70,
+		"last_price" : 62674.21,
+		"time_stamp" : "2024-05-13 20:31:14.994737",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 71,
+		"last_price" : 80.80,
+		"time_stamp" : "2024-05-13 20:31:15.305808",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 72,
+		"last_price" : 2935.99,
+		"time_stamp" : "2024-05-13 20:31:16.145249",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 73,
+		"last_price" : 62798.00,
+		"time_stamp" : "2024-05-13 20:41:15.022122",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 74,
+		"last_price" : 80.91,
+		"time_stamp" : "2024-05-13 20:41:15.330052",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 75,
+		"last_price" : 2944.01,
+		"time_stamp" : "2024-05-13 20:41:15.632514",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 76,
+		"last_price" : 62675.34,
+		"time_stamp" : "2024-05-13 20:51:15.058772",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 77,
+		"last_price" : 80.76,
+		"time_stamp" : "2024-05-13 20:51:15.390994",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 78,
+		"last_price" : 2939.90,
+		"time_stamp" : "2024-05-13 20:51:15.690817",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 79,
+		"last_price" : 62850.01,
+		"time_stamp" : "2024-05-13 21:01:14.970701",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 80,
+		"last_price" : 80.96,
+		"time_stamp" : "2024-05-13 21:01:15.272032",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 81,
+		"last_price" : 2945.41,
+		"time_stamp" : "2024-05-13 21:01:15.571826",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 82,
+		"last_price" : 62920.79,
+		"time_stamp" : "2024-05-13 21:11:15.000822",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 83,
+		"last_price" : 81.09,
+		"time_stamp" : "2024-05-13 21:11:15.303489",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 84,
+		"last_price" : 2949.78,
+		"time_stamp" : "2024-05-13 21:11:15.601831",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 85,
+		"last_price" : 62957.62,
+		"time_stamp" : "2024-05-13 21:21:15.010083",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 86,
+		"last_price" : 81.12,
+		"time_stamp" : "2024-05-13 21:21:15.303708",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 87,
+		"last_price" : 2948.00,
+		"time_stamp" : "2024-05-13 21:21:15.603225",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 88,
+		"last_price" : 62999.99,
+		"time_stamp" : "2024-05-13 21:31:14.989165",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 89,
+		"last_price" : 81.21,
+		"time_stamp" : "2024-05-13 21:31:15.292698",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 90,
+		"last_price" : 2955.07,
+		"time_stamp" : "2024-05-13 21:31:15.600493",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 91,
+		"last_price" : 63081.52,
+		"time_stamp" : "2024-05-13 21:41:14.994690",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 92,
+		"last_price" : 81.10,
+		"time_stamp" : "2024-05-13 21:41:15.290310",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 93,
+		"last_price" : 2956.90,
+		"time_stamp" : "2024-05-13 21:41:15.590766",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 94,
+		"last_price" : 63084.01,
+		"time_stamp" : "2024-05-13 21:51:15.582049",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 95,
+		"last_price" : 81.10,
+		"time_stamp" : "2024-05-13 21:51:15.884149",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 96,
+		"last_price" : 2955.00,
+		"time_stamp" : "2024-05-13 21:51:16.183604",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 97,
+		"last_price" : 63127.72,
+		"time_stamp" : "2024-05-13 22:01:15.031157",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 98,
+		"last_price" : 81.09,
+		"time_stamp" : "2024-05-13 22:01:15.331527",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 99,
+		"last_price" : 2955.59,
+		"time_stamp" : "2024-05-13 22:01:15.633122",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 100,
+		"last_price" : 63134.89,
+		"time_stamp" : "2024-05-13 22:11:14.978154",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 101,
+		"last_price" : 81.00,
+		"time_stamp" : "2024-05-13 22:11:15.270587",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 102,
+		"last_price" : 2953.47,
+		"time_stamp" : "2024-05-13 22:11:15.570061",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 103,
+		"last_price" : 63086.14,
+		"time_stamp" : "2024-05-13 22:21:14.993230",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 104,
+		"last_price" : 81.00,
+		"time_stamp" : "2024-05-13 22:21:15.293407",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 105,
+		"last_price" : 2952.60,
+		"time_stamp" : "2024-05-13 22:21:16.126221",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 106,
+		"last_price" : 63026.00,
+		"time_stamp" : "2024-05-13 22:31:14.991661",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 107,
+		"last_price" : 81.02,
+		"time_stamp" : "2024-05-13 22:31:15.291168",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 108,
+		"last_price" : 2952.65,
+		"time_stamp" : "2024-05-13 22:31:15.592782",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 109,
+		"last_price" : 63127.32,
+		"time_stamp" : "2024-05-13 22:41:15.036286",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 110,
+		"last_price" : 81.05,
+		"time_stamp" : "2024-05-13 22:41:15.341277",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 111,
+		"last_price" : 2958.48,
+		"time_stamp" : "2024-05-13 22:41:15.636087",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 112,
+		"last_price" : 63112.01,
+		"time_stamp" : "2024-05-13 22:51:15.021891",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 113,
+		"last_price" : 81.03,
+		"time_stamp" : "2024-05-13 22:51:15.326353",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 114,
+		"last_price" : 2954.31,
+		"time_stamp" : "2024-05-13 22:51:15.618707",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 115,
+		"last_price" : 63092.01,
+		"time_stamp" : "2024-05-13 23:01:14.983641",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 116,
+		"last_price" : 80.92,
+		"time_stamp" : "2024-05-13 23:01:15.286830",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 117,
+		"last_price" : 2953.47,
+		"time_stamp" : "2024-05-13 23:01:15.583037",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 118,
+		"last_price" : 63071.38,
+		"time_stamp" : "2024-05-13 23:11:14.990769",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 119,
+		"last_price" : 80.84,
+		"time_stamp" : "2024-05-13 23:11:15.297901",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 120,
+		"last_price" : 2953.39,
+		"time_stamp" : "2024-05-13 23:11:15.601361",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 121,
+		"last_price" : 63017.21,
+		"time_stamp" : "2024-05-13 23:21:15.043205",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 122,
+		"last_price" : 80.82,
+		"time_stamp" : "2024-05-13 23:21:15.342151",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 123,
+		"last_price" : 2952.41,
+		"time_stamp" : "2024-05-13 23:21:15.639179",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 124,
+		"last_price" : 63006.00,
+		"time_stamp" : "2024-05-13 23:31:15.353622",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 125,
+		"last_price" : 80.91,
+		"time_stamp" : "2024-05-13 23:31:15.654503",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 126,
+		"last_price" : 2953.58,
+		"time_stamp" : "2024-05-13 23:31:15.943527",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 127,
+		"last_price" : 62940.00,
+		"time_stamp" : "2024-05-13 23:41:15.072219",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 128,
+		"last_price" : 80.84,
+		"time_stamp" : "2024-05-13 23:41:15.471788",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 129,
+		"last_price" : 2953.02,
+		"time_stamp" : "2024-05-13 23:41:15.780571",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 130,
+		"last_price" : 62880.01,
+		"time_stamp" : "2024-05-13 23:51:14.974651",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 131,
+		"last_price" : 80.83,
+		"time_stamp" : "2024-05-13 23:51:15.271130",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 132,
+		"last_price" : 2950.11,
+		"time_stamp" : "2024-05-13 23:51:15.569294",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 133,
+		"last_price" : 62940.00,
+		"time_stamp" : "2024-05-14 00:01:14.963594",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 134,
+		"last_price" : 80.87,
+		"time_stamp" : "2024-05-14 00:01:15.273351",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 135,
+		"last_price" : 2953.07,
+		"time_stamp" : "2024-05-14 00:01:15.571937",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 136,
+		"last_price" : 62880.62,
+		"time_stamp" : "2024-05-14 00:11:14.962392",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 137,
+		"last_price" : 80.77,
+		"time_stamp" : "2024-05-14 00:11:15.261412",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 138,
+		"last_price" : 2948.37,
+		"time_stamp" : "2024-05-14 00:11:15.560183",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 139,
+		"last_price" : 62858.01,
+		"time_stamp" : "2024-05-14 00:21:14.966637",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 140,
+		"last_price" : 80.76,
+		"time_stamp" : "2024-05-14 00:21:15.259277",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 141,
+		"last_price" : 2946.90,
+		"time_stamp" : "2024-05-14 00:21:15.553973",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 142,
+		"last_price" : 62776.00,
+		"time_stamp" : "2024-05-14 00:31:14.949585",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 143,
+		"last_price" : 80.72,
+		"time_stamp" : "2024-05-14 00:31:15.246147",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 144,
+		"last_price" : 2942.81,
+		"time_stamp" : "2024-05-14 00:31:15.538682",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 145,
+		"last_price" : 62752.41,
+		"time_stamp" : "2024-05-14 00:41:14.991352",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 146,
+		"last_price" : 80.67,
+		"time_stamp" : "2024-05-14 00:41:15.288380",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 147,
+		"last_price" : 2941.01,
+		"time_stamp" : "2024-05-14 00:41:15.585886",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 148,
+		"last_price" : 62040.00,
+		"time_stamp" : "2024-05-14 15:32:00.479329",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 149,
+		"last_price" : 80.00,
+		"time_stamp" : "2024-05-14 15:32:01.370663",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 150,
+		"last_price" : 2911.11,
+		"time_stamp" : "2024-05-14 15:32:01.670837",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 151,
+		"last_price" : 61971.55,
+		"time_stamp" : "2024-05-14 15:42:00.220786",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 152,
+		"last_price" : 79.95,
+		"time_stamp" : "2024-05-14 15:42:00.819566",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 153,
+		"last_price" : 2908.72,
+		"time_stamp" : "2024-05-14 15:42:01.134723",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 154,
+		"last_price" : 61821.89,
+		"time_stamp" : "2024-05-14 15:51:59.766174",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 155,
+		"last_price" : 79.74,
+		"time_stamp" : "2024-05-14 15:52:00.090936",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 156,
+		"last_price" : 2901.01,
+		"time_stamp" : "2024-05-14 15:52:00.385583",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 157,
+		"last_price" : 61638.07,
+		"time_stamp" : "2024-05-14 16:01:59.729946",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 158,
+		"last_price" : 79.53,
+		"time_stamp" : "2024-05-14 16:02:00.032309",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 159,
+		"last_price" : 2894.33,
+		"time_stamp" : "2024-05-14 16:02:00.338638",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 160,
+		"last_price" : 61409.99,
+		"time_stamp" : "2024-05-14 16:11:59.781057",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 161,
+		"last_price" : 79.09,
+		"time_stamp" : "2024-05-14 16:12:00.083657",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 162,
+		"last_price" : 2885.82,
+		"time_stamp" : "2024-05-14 16:12:00.382661",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 163,
+		"last_price" : 61342.25,
+		"time_stamp" : "2024-05-14 16:21:59.778423",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 164,
+		"last_price" : 78.74,
+		"time_stamp" : "2024-05-14 16:22:00.078405",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 165,
+		"last_price" : 2875.99,
+		"time_stamp" : "2024-05-14 16:22:00.369772",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 166,
+		"last_price" : 62223.02,
+		"time_stamp" : "2024-05-14 16:31:59.813024",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 167,
+		"last_price" : 79.67,
+		"time_stamp" : "2024-05-14 16:32:00.114365",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 168,
+		"last_price" : 2921.25,
+		"time_stamp" : "2024-05-14 16:32:00.413172",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 169,
+		"last_price" : 61380.00,
+		"time_stamp" : "2024-05-14 19:01:21.080437",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 170,
+		"last_price" : 79.15,
+		"time_stamp" : "2024-05-14 19:01:21.433971",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 171,
+		"last_price" : 2889.32,
+		"time_stamp" : "2024-05-14 19:01:21.747354",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 172,
+		"last_price" : 61374.81,
+		"time_stamp" : "2024-05-14 19:01:30.893544",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 173,
+		"last_price" : 79.15,
+		"time_stamp" : "2024-05-14 19:01:31.197567",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 174,
+		"last_price" : 2889.16,
+		"time_stamp" : "2024-05-14 19:01:31.497529",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 175,
+		"last_price" : 61378.28,
+		"time_stamp" : "2024-05-14 19:01:40.376624",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 176,
+		"last_price" : 79.19,
+		"time_stamp" : "2024-05-14 19:01:40.670827",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 177,
+		"last_price" : 2889.01,
+		"time_stamp" : "2024-05-14 19:01:40.973441",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 178,
+		"last_price" : 61378.27,
+		"time_stamp" : "2024-05-14 19:01:50.385276",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 179,
+		"last_price" : 79.21,
+		"time_stamp" : "2024-05-14 19:01:50.690019",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 180,
+		"last_price" : 2889.12,
+		"time_stamp" : "2024-05-14 19:01:51.004364",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 181,
+		"last_price" : 61366.81,
+		"time_stamp" : "2024-05-14 19:02:00.414141",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 182,
+		"last_price" : 79.20,
+		"time_stamp" : "2024-05-14 19:02:00.721873",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 183,
+		"last_price" : 2887.84,
+		"time_stamp" : "2024-05-14 19:02:01.023954",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 184,
+		"last_price" : 61353.80,
+		"time_stamp" : "2024-05-14 19:02:10.909994",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 185,
+		"last_price" : 79.18,
+		"time_stamp" : "2024-05-14 19:02:11.216091",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 186,
+		"last_price" : 2888.39,
+		"time_stamp" : "2024-05-14 19:02:11.512877",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 187,
+		"last_price" : 61379.99,
+		"time_stamp" : "2024-05-14 19:02:20.365895",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 188,
+		"last_price" : 79.20,
+		"time_stamp" : "2024-05-14 19:02:20.677483",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 189,
+		"last_price" : 2890.00,
+		"time_stamp" : "2024-05-14 19:02:20.981529",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 190,
+		"last_price" : 61414.79,
+		"time_stamp" : "2024-05-14 19:02:30.370716",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 191,
+		"last_price" : 79.22,
+		"time_stamp" : "2024-05-14 19:02:30.677897",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 192,
+		"last_price" : 2890.63,
+		"time_stamp" : "2024-05-14 19:02:30.975022",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 193,
+		"last_price" : 61397.38,
+		"time_stamp" : "2024-05-14 19:02:40.373781",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 194,
+		"last_price" : 79.22,
+		"time_stamp" : "2024-05-14 19:02:40.677968",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 195,
+		"last_price" : 2889.94,
+		"time_stamp" : "2024-05-14 19:02:41.510532",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 196,
+		"last_price" : 61397.39,
+		"time_stamp" : "2024-05-14 19:02:50.906643",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 197,
+		"last_price" : 79.22,
+		"time_stamp" : "2024-05-14 19:02:51.747467",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 198,
+		"last_price" : 2889.93,
+		"time_stamp" : "2024-05-14 19:02:52.049423",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 199,
+		"last_price" : 61397.38,
+		"time_stamp" : "2024-05-14 19:03:00.368087",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 200,
+		"last_price" : 79.21,
+		"time_stamp" : "2024-05-14 19:03:00.664075",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 201,
+		"last_price" : 2889.94,
+		"time_stamp" : "2024-05-14 19:03:00.967899",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 202,
+		"last_price" : 61401.28,
+		"time_stamp" : "2024-05-14 19:10:01.700568",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 203,
+		"last_price" : 79.08,
+		"time_stamp" : "2024-05-14 19:10:02.461970",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 204,
+		"last_price" : 2889.19,
+		"time_stamp" : "2024-05-14 19:10:03.279344",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 205,
+		"last_price" : 61494.55,
+		"time_stamp" : "2024-05-14 19:17:58.763718",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 206,
+		"last_price" : 79.18,
+		"time_stamp" : "2024-05-14 19:17:59.106416",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 207,
+		"last_price" : 2894.42,
+		"time_stamp" : "2024-05-14 19:17:59.402759",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 208,
+		"last_price" : 61438.18,
+		"time_stamp" : "2024-05-14 19:27:58.205877",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 209,
+		"last_price" : 79.05,
+		"time_stamp" : "2024-05-14 19:27:58.507920",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 210,
+		"last_price" : 2888.96,
+		"time_stamp" : "2024-05-14 19:27:58.815156",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 211,
+		"last_price" : 61251.15,
+		"time_stamp" : "2024-05-14 19:37:58.219055",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 212,
+		"last_price" : 78.90,
+		"time_stamp" : "2024-05-14 19:37:58.516815",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 213,
+		"last_price" : 2878.28,
+		"time_stamp" : "2024-05-14 19:37:58.821529",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 214,
+		"last_price" : 61241.76,
+		"time_stamp" : "2024-05-14 19:47:58.165958",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 215,
+		"last_price" : 78.87,
+		"time_stamp" : "2024-05-14 19:47:58.467428",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 216,
+		"last_price" : 2872.39,
+		"time_stamp" : "2024-05-14 19:47:58.771954",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 217,
+		"last_price" : 61292.59,
+		"time_stamp" : "2024-05-14 19:57:58.250562",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 218,
+		"last_price" : 79.18,
+		"time_stamp" : "2024-05-14 19:57:58.551912",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 219,
+		"last_price" : 2874.99,
+		"time_stamp" : "2024-05-14 19:57:58.845911",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 220,
+		"last_price" : 61249.23,
+		"time_stamp" : "2024-05-14 20:07:58.245603",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 221,
+		"last_price" : 78.97,
+		"time_stamp" : "2024-05-14 20:07:58.542908",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 222,
+		"last_price" : 2872.25,
+		"time_stamp" : "2024-05-14 20:07:58.839220",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 223,
+		"last_price" : 61444.38,
+		"time_stamp" : "2024-05-14 20:17:58.183145",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 224,
+		"last_price" : 79.10,
+		"time_stamp" : "2024-05-14 20:17:58.510943",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 225,
+		"last_price" : 2886.48,
+		"time_stamp" : "2024-05-14 20:17:58.820302",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 226,
+		"last_price" : 61313.99,
+		"time_stamp" : "2024-05-14 20:27:58.186482",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 227,
+		"last_price" : 79.20,
+		"time_stamp" : "2024-05-14 20:27:58.482389",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 228,
+		"last_price" : 2884.75,
+		"time_stamp" : "2024-05-14 20:27:58.788777",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 229,
+		"last_price" : 61335.39,
+		"time_stamp" : "2024-05-14 20:37:58.208770",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 230,
+		"last_price" : 79.31,
+		"time_stamp" : "2024-05-14 20:37:58.513341",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 231,
+		"last_price" : 2884.18,
+		"time_stamp" : "2024-05-14 20:37:58.810367",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 232,
+		"last_price" : 61430.00,
+		"time_stamp" : "2024-05-14 20:47:58.200429",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 233,
+		"last_price" : 79.37,
+		"time_stamp" : "2024-05-14 20:47:58.493755",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 234,
+		"last_price" : 2886.11,
+		"time_stamp" : "2024-05-14 20:47:58.797153",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 235,
+		"last_price" : 61432.41,
+		"time_stamp" : "2024-05-14 20:57:58.169174",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 236,
+		"last_price" : 79.29,
+		"time_stamp" : "2024-05-14 20:57:59.108639",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 237,
+		"last_price" : 2887.70,
+		"time_stamp" : "2024-05-14 20:57:59.407927",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 238,
+		"last_price" : 61428.98,
+		"time_stamp" : "2024-05-14 21:07:58.229974",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 239,
+		"last_price" : 79.27,
+		"time_stamp" : "2024-05-14 21:07:58.542096",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 240,
+		"last_price" : 2889.22,
+		"time_stamp" : "2024-05-14 21:07:58.846156",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 241,
+		"last_price" : 61519.02,
+		"time_stamp" : "2024-05-14 21:17:58.168148",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 242,
+		"last_price" : 79.37,
+		"time_stamp" : "2024-05-14 21:17:58.470312",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 243,
+		"last_price" : 2893.92,
+		"time_stamp" : "2024-05-14 21:17:58.782122",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 244,
+		"last_price" : 61574.05,
+		"time_stamp" : "2024-05-14 21:27:58.229173",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 245,
+		"last_price" : 79.46,
+		"time_stamp" : "2024-05-14 21:27:58.530367",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 246,
+		"last_price" : 2897.11,
+		"time_stamp" : "2024-05-14 21:27:58.861482",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 247,
+		"last_price" : 61591.62,
+		"time_stamp" : "2024-05-14 21:37:58.271634",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 248,
+		"last_price" : 79.37,
+		"time_stamp" : "2024-05-14 21:37:58.572187",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 249,
+		"last_price" : 2895.45,
+		"time_stamp" : "2024-05-14 21:37:58.877506",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 250,
+		"last_price" : 61623.07,
+		"time_stamp" : "2024-05-14 21:47:58.183684",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 251,
+		"last_price" : 79.35,
+		"time_stamp" : "2024-05-14 21:47:58.490218",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 252,
+		"last_price" : 2894.78,
+		"time_stamp" : "2024-05-14 21:47:58.796731",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 253,
+		"last_price" : 61575.76,
+		"time_stamp" : "2024-05-14 21:57:58.233224",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 254,
+		"last_price" : 79.32,
+		"time_stamp" : "2024-05-14 21:57:58.537645",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 255,
+		"last_price" : 2893.65,
+		"time_stamp" : "2024-05-14 21:57:58.835092",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 256,
+		"last_price" : 61592.81,
+		"time_stamp" : "2024-05-14 22:07:58.193006",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 257,
+		"last_price" : 79.24,
+		"time_stamp" : "2024-05-14 22:07:58.496514",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 258,
+		"last_price" : 2893.59,
+		"time_stamp" : "2024-05-14 22:07:58.807479",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 259,
+		"last_price" : 61638.22,
+		"time_stamp" : "2024-05-14 22:17:58.167096",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 260,
+		"last_price" : 79.37,
+		"time_stamp" : "2024-05-14 22:17:58.469154",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 261,
+		"last_price" : 2896.80,
+		"time_stamp" : "2024-05-14 22:17:59.289587",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 262,
+		"last_price" : 61628.37,
+		"time_stamp" : "2024-05-14 22:27:58.174774",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 263,
+		"last_price" : 79.40,
+		"time_stamp" : "2024-05-14 22:27:58.998683",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 264,
+		"last_price" : 2897.70,
+		"time_stamp" : "2024-05-14 22:27:59.298623",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 265,
+		"last_price" : 61638.20,
+		"time_stamp" : "2024-05-14 22:37:58.175685",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 266,
+		"last_price" : 79.52,
+		"time_stamp" : "2024-05-14 22:37:58.477878",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 267,
+		"last_price" : 2898.01,
+		"time_stamp" : "2024-05-14 22:37:58.781301",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 268,
+		"last_price" : 61649.98,
+		"time_stamp" : "2024-05-14 22:47:58.225846",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 269,
+		"last_price" : 79.47,
+		"time_stamp" : "2024-05-14 22:47:58.525111",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 270,
+		"last_price" : 2889.76,
+		"time_stamp" : "2024-05-14 22:47:58.825326",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 271,
+		"last_price" : 61600.24,
+		"time_stamp" : "2024-05-14 22:57:58.248878",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 272,
+		"last_price" : 79.42,
+		"time_stamp" : "2024-05-14 22:57:58.559119",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 273,
+		"last_price" : 2891.20,
+		"time_stamp" : "2024-05-14 22:57:58.862038",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 274,
+		"last_price" : 61607.37,
+		"time_stamp" : "2024-05-14 23:04:43.636186",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 275,
+		"last_price" : 79.35,
+		"time_stamp" : "2024-05-14 23:04:43.992504",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 276,
+		"last_price" : 2892.80,
+		"time_stamp" : "2024-05-14 23:04:44.320098",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 277,
+		"last_price" : 61598.78,
+		"time_stamp" : "2024-05-14 23:14:42.324429",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 278,
+		"last_price" : 79.25,
+		"time_stamp" : "2024-05-14 23:14:42.743309",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 279,
+		"last_price" : 2892.60,
+		"time_stamp" : "2024-05-14 23:14:43.057000",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 280,
+		"last_price" : 61563.61,
+		"time_stamp" : "2024-05-14 23:16:41.745675",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 281,
+		"last_price" : 79.15,
+		"time_stamp" : "2024-05-14 23:16:42.089777",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 282,
+		"last_price" : 2892.04,
+		"time_stamp" : "2024-05-14 23:16:42.392104",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 283,
+		"last_price" : 61495.32,
+		"time_stamp" : "2024-05-14 23:26:19.755577",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 284,
+		"last_price" : 79.15,
+		"time_stamp" : "2024-05-14 23:26:20.118258",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 285,
+		"last_price" : 2888.59,
+		"time_stamp" : "2024-05-14 23:26:20.420942",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 286,
+		"last_price" : 61550.90,
+		"time_stamp" : "2024-05-14 23:36:19.140782",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 287,
+		"last_price" : 79.18,
+		"time_stamp" : "2024-05-14 23:36:19.447479",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 288,
+		"last_price" : 2893.24,
+		"time_stamp" : "2024-05-14 23:36:19.745785",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 289,
+		"last_price" : 61760.77,
+		"time_stamp" : "2024-05-14 23:46:19.113104",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 290,
+		"last_price" : 79.17,
+		"time_stamp" : "2024-05-14 23:46:19.419146",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 291,
+		"last_price" : 2899.38,
+		"time_stamp" : "2024-05-14 23:46:19.715408",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 292,
+		"last_price" : 61636.37,
+		"time_stamp" : "2024-05-14 23:56:19.042566",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 293,
+		"last_price" : 79.13,
+		"time_stamp" : "2024-05-14 23:56:19.347320",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 294,
+		"last_price" : 2893.44,
+		"time_stamp" : "2024-05-14 23:56:19.644115",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 295,
+		"last_price" : 61661.70,
+		"time_stamp" : "2024-05-15 00:06:19.010573",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 296,
+		"last_price" : 79.16,
+		"time_stamp" : "2024-05-15 00:06:19.316633",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 297,
+		"last_price" : 2896.49,
+		"time_stamp" : "2024-05-15 00:06:19.625844",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 298,
+		"last_price" : 61658.77,
+		"time_stamp" : "2024-05-15 00:16:18.982814",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 299,
+		"last_price" : 79.02,
+		"time_stamp" : "2024-05-15 00:16:19.276334",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 300,
+		"last_price" : 2894.26,
+		"time_stamp" : "2024-05-15 00:16:19.574620",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 301,
+		"last_price" : 61652.46,
+		"time_stamp" : "2024-05-15 00:26:19.072866",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 302,
+		"last_price" : 78.81,
+		"time_stamp" : "2024-05-15 00:26:19.378251",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 303,
+		"last_price" : 2891.59,
+		"time_stamp" : "2024-05-15 00:26:19.677644",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 304,
+		"last_price" : 61636.36,
+		"time_stamp" : "2024-05-15 00:36:19.018805",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 305,
+		"last_price" : 78.77,
+		"time_stamp" : "2024-05-15 00:36:19.333458",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 306,
+		"last_price" : 2891.12,
+		"time_stamp" : "2024-05-15 00:36:19.627833",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 307,
+		"last_price" : 61738.03,
+		"time_stamp" : "2024-05-15 00:46:19.026085",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 308,
+		"last_price" : 78.98,
+		"time_stamp" : "2024-05-15 00:46:19.333263",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 309,
+		"last_price" : 2892.00,
+		"time_stamp" : "2024-05-15 00:46:19.635490",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 310,
+		"last_price" : 61730.49,
+		"time_stamp" : "2024-05-15 00:56:18.984059",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 311,
+		"last_price" : 78.93,
+		"time_stamp" : "2024-05-15 00:56:19.301192",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 312,
+		"last_price" : 2888.41,
+		"time_stamp" : "2024-05-15 00:56:19.627425",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 313,
+		"last_price" : 61673.98,
+		"time_stamp" : "2024-05-15 01:06:19.050401",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 314,
+		"last_price" : 78.91,
+		"time_stamp" : "2024-05-15 01:06:19.353699",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 315,
+		"last_price" : 2888.83,
+		"time_stamp" : "2024-05-15 01:06:20.162654",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 316,
+		"last_price" : 61623.15,
+		"time_stamp" : "2024-05-15 01:16:19.015284",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 317,
+		"last_price" : 78.87,
+		"time_stamp" : "2024-05-15 01:16:19.322979",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 318,
+		"last_price" : 2884.69,
+		"time_stamp" : "2024-05-15 01:16:20.165493",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 319,
+		"last_price" : 61550.00,
+		"time_stamp" : "2024-05-15 01:26:19.032656",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 320,
+		"last_price" : 78.68,
+		"time_stamp" : "2024-05-15 01:26:19.340036",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 321,
+		"last_price" : 2880.12,
+		"time_stamp" : "2024-05-15 01:26:19.657248",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 322,
+		"last_price" : 61565.39,
+		"time_stamp" : "2024-05-15 01:36:18.964482",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 323,
+		"last_price" : 78.69,
+		"time_stamp" : "2024-05-15 01:36:19.270783",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 324,
+		"last_price" : 2882.01,
+		"time_stamp" : "2024-05-15 01:36:19.568559",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 325,
+		"last_price" : 61567.06,
+		"time_stamp" : "2024-05-15 01:40:49.047176",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 326,
+		"last_price" : 78.78,
+		"time_stamp" : "2024-05-15 01:40:49.382281",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 327,
+		"last_price" : 2882.89,
+		"time_stamp" : "2024-05-15 01:40:50.209070",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 328,
+		"last_price" : 61582.20,
+		"time_stamp" : "2024-05-15 01:50:48.563050",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 329,
+		"last_price" : 78.80,
+		"time_stamp" : "2024-05-15 01:50:48.866657",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 330,
+		"last_price" : 2883.12,
+		"time_stamp" : "2024-05-15 01:50:49.168598",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 331,
+		"last_price" : 61590.00,
+		"time_stamp" : "2024-05-15 02:00:48.522846",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 332,
+		"last_price" : 78.89,
+		"time_stamp" : "2024-05-15 02:00:48.819058",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 333,
+		"last_price" : 2885.41,
+		"time_stamp" : "2024-05-15 02:00:49.121246",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 334,
+		"last_price" : 61647.99,
+		"time_stamp" : "2024-05-15 02:10:48.529460",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 335,
+		"last_price" : 78.93,
+		"time_stamp" : "2024-05-15 02:10:48.839632",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 336,
+		"last_price" : 2886.84,
+		"time_stamp" : "2024-05-15 02:10:49.137834",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 337,
+		"last_price" : 61666.66,
+		"time_stamp" : "2024-05-15 02:20:48.612515",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 338,
+		"last_price" : 78.86,
+		"time_stamp" : "2024-05-15 02:20:48.914708",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 339,
+		"last_price" : 2886.94,
+		"time_stamp" : "2024-05-15 02:20:49.214904",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 340,
+		"last_price" : 61783.35,
+		"time_stamp" : "2024-05-15 02:30:48.529091",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 341,
+		"last_price" : 79.01,
+		"time_stamp" : "2024-05-15 02:30:48.825298",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 342,
+		"last_price" : 2893.89,
+		"time_stamp" : "2024-05-15 02:30:49.127491",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 343,
+		"last_price" : 61540.00,
+		"time_stamp" : "2024-05-15 02:40:48.546554",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 344,
+		"last_price" : 78.72,
+		"time_stamp" : "2024-05-15 02:40:48.845645",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 345,
+		"last_price" : 2880.35,
+		"time_stamp" : "2024-05-15 02:40:49.145188",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 346,
+		"last_price" : 61444.65,
+		"time_stamp" : "2024-05-15 02:50:48.532986",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 347,
+		"last_price" : 78.57,
+		"time_stamp" : "2024-05-15 02:50:48.831189",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 348,
+		"last_price" : 2868.58,
+		"time_stamp" : "2024-05-15 02:50:49.125401",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 349,
+		"last_price" : 61483.41,
+		"time_stamp" : "2024-05-15 03:00:48.607392",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 350,
+		"last_price" : 78.55,
+		"time_stamp" : "2024-05-15 03:00:48.917562",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 351,
+		"last_price" : 2870.25,
+		"time_stamp" : "2024-05-15 03:00:49.226755",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 352,
+		"last_price" : 61630.01,
+		"time_stamp" : "2024-05-15 03:10:48.531947",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 353,
+		"last_price" : 78.86,
+		"time_stamp" : "2024-05-15 03:10:48.837131",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 354,
+		"last_price" : 2880.00,
+		"time_stamp" : "2024-05-15 03:10:49.139323",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 355,
+		"last_price" : 61675.48,
+		"time_stamp" : "2024-05-15 03:20:48.570124",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 356,
+		"last_price" : 78.86,
+		"time_stamp" : "2024-05-15 03:20:49.436786",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 357,
+		"last_price" : 2881.69,
+		"time_stamp" : "2024-05-15 03:20:50.304320",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 358,
+		"last_price" : 61659.80,
+		"time_stamp" : "2024-05-15 03:30:48.524232",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 359,
+		"last_price" : 78.90,
+		"time_stamp" : "2024-05-15 03:30:48.826420",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 360,
+		"last_price" : 2882.85,
+		"time_stamp" : "2024-05-15 03:30:49.138586",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 361,
+		"last_price" : 61699.99,
+		"time_stamp" : "2024-05-15 03:40:48.524440",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 362,
+		"last_price" : 78.95,
+		"time_stamp" : "2024-05-15 03:40:48.825618",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 363,
+		"last_price" : 2882.44,
+		"time_stamp" : "2024-05-15 03:40:49.137782",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 364,
+		"last_price" : 61680.00,
+		"time_stamp" : "2024-05-15 03:50:48.623545",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 365,
+		"last_price" : 78.92,
+		"time_stamp" : "2024-05-15 03:50:48.921748",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 366,
+		"last_price" : 2883.81,
+		"time_stamp" : "2024-05-15 03:50:49.235265",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 367,
+		"last_price" : 61719.02,
+		"time_stamp" : "2024-05-15 04:00:48.513555",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 368,
+		"last_price" : 78.96,
+		"time_stamp" : "2024-05-15 04:00:48.808764",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 369,
+		"last_price" : 2886.07,
+		"time_stamp" : "2024-05-15 04:00:49.110956",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 370,
+		"last_price" : 61776.01,
+		"time_stamp" : "2024-05-15 04:10:48.612191",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 371,
+		"last_price" : 78.89,
+		"time_stamp" : "2024-05-15 04:10:48.919370",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 372,
+		"last_price" : 2888.85,
+		"time_stamp" : "2024-05-15 04:10:49.230537",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 373,
+		"last_price" : 61816.19,
+		"time_stamp" : "2024-05-15 04:20:48.570659",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 374,
+		"last_price" : 78.84,
+		"time_stamp" : "2024-05-15 04:20:48.872851",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 375,
+		"last_price" : 2886.67,
+		"time_stamp" : "2024-05-15 04:20:49.172050",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 376,
+		"last_price" : 61805.04,
+		"time_stamp" : "2024-05-15 04:30:48.521203",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 377,
+		"last_price" : 78.87,
+		"time_stamp" : "2024-05-15 04:30:48.824470",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 378,
+		"last_price" : 2888.01,
+		"time_stamp" : "2024-05-15 04:30:49.120678",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 379,
+		"last_price" : 61787.58,
+		"time_stamp" : "2024-05-15 04:40:48.537199",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 380,
+		"last_price" : 78.86,
+		"time_stamp" : "2024-05-15 04:40:48.828420",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 381,
+		"last_price" : 2888.28,
+		"time_stamp" : "2024-05-15 04:40:49.125626",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 382,
+		"last_price" : 61954.19,
+		"time_stamp" : "2024-05-15 11:12:38.050538",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 383,
+		"last_price" : 78.33,
+		"time_stamp" : "2024-05-15 11:12:38.395615",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 384,
+		"last_price" : 2896.32,
+		"time_stamp" : "2024-05-15 11:12:38.816489",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 385,
+		"last_price" : 62025.98,
+		"time_stamp" : "2024-05-15 11:22:37.060064",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 386,
+		"last_price" : 78.38,
+		"time_stamp" : "2024-05-15 11:22:37.887885",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 387,
+		"last_price" : 2898.78,
+		"time_stamp" : "2024-05-15 11:22:38.730197",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 388,
+		"last_price" : 62061.70,
+		"time_stamp" : "2024-05-15 11:32:37.565363",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 389,
+		"last_price" : 78.32,
+		"time_stamp" : "2024-05-15 11:32:37.867340",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 390,
+		"last_price" : 2900.00,
+		"time_stamp" : "2024-05-15 11:32:38.700475",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 391,
+		"last_price" : 62247.99,
+		"time_stamp" : "2024-05-15 11:42:36.915877",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 392,
+		"last_price" : 78.62,
+		"time_stamp" : "2024-05-15 11:42:37.222993",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 393,
+		"last_price" : 2906.95,
+		"time_stamp" : "2024-05-15 11:42:37.521712",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 394,
+		"last_price" : 62595.99,
+		"time_stamp" : "2024-05-15 11:47:18.361461",
+		"symbol" : null,
+		"symbol_name" : "BTCUSDT"
+	},
+	{
+		"price_id" : 395,
+		"last_price" : 78.96,
+		"time_stamp" : "2024-05-15 11:47:19.229653",
+		"symbol" : null,
+		"symbol_name" : "LTCUSDT"
+	},
+	{
+		"price_id" : 396,
+		"last_price" : 2919.79,
+		"time_stamp" : "2024-05-15 11:47:20.076390",
+		"symbol" : null,
+		"symbol_name" : "ETHUSDT"
+	},
+	{
+		"price_id" : 397,
+		"last_price" : 62797.64,
+		"time_stamp" : "2024-05-15 11:55:59.810845",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 398,
+		"last_price" : 79.12,
+		"time_stamp" : "2024-05-15 11:56:00.197811",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 399,
+		"last_price" : 2928.64,
+		"time_stamp" : "2024-05-15 11:56:00.521945",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 400,
+		"last_price" : 62710.00,
+		"time_stamp" : "2024-05-15 11:58:58.561857",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 401,
+		"last_price" : 79.00,
+		"time_stamp" : "2024-05-15 11:58:58.904998",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 402,
+		"last_price" : 2922.74,
+		"time_stamp" : "2024-05-15 11:58:59.229349",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 403,
+		"last_price" : 62554.00,
+		"time_stamp" : "2024-05-15 12:04:05.074502",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 404,
+		"last_price" : 78.77,
+		"time_stamp" : "2024-05-15 12:04:05.423336",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 405,
+		"last_price" : 2911.79,
+		"time_stamp" : "2024-05-15 12:04:05.731643",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 406,
+		"last_price" : 62459.92,
+		"time_stamp" : "2024-05-15 12:05:32.797330",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 407,
+		"last_price" : 78.69,
+		"time_stamp" : "2024-05-15 12:05:33.147322",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 408,
+		"last_price" : 2910.38,
+		"time_stamp" : "2024-05-15 12:05:33.456718",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 409,
+		"last_price" : 62415.80,
+		"time_stamp" : "2024-05-15 12:06:45.037089",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 410,
+		"last_price" : 78.69,
+		"time_stamp" : "2024-05-15 12:06:45.394642",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 411,
+		"last_price" : 2909.54,
+		"time_stamp" : "2024-05-15 12:06:45.696834",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 412,
+		"last_price" : 62534.00,
+		"time_stamp" : "2024-05-15 12:07:20.957496",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 413,
+		"last_price" : 78.78,
+		"time_stamp" : "2024-05-15 12:07:21.846292",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 414,
+		"last_price" : 2913.03,
+		"time_stamp" : "2024-05-15 12:07:22.690668",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 415,
+		"last_price" : 62584.61,
+		"time_stamp" : "2024-05-15 12:09:24.328370",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 416,
+		"last_price" : 78.87,
+		"time_stamp" : "2024-05-15 12:09:24.683420",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 417,
+		"last_price" : 2914.04,
+		"time_stamp" : "2024-05-15 12:09:24.990508",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 418,
+		"last_price" : 62504.40,
+		"time_stamp" : "2024-05-15 12:14:05.601787",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 419,
+		"last_price" : 78.81,
+		"time_stamp" : "2024-05-15 12:14:05.935406",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 420,
+		"last_price" : 2910.20,
+		"time_stamp" : "2024-05-15 12:14:06.242585",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 421,
+		"last_price" : 62614.80,
+		"time_stamp" : "2024-05-15 12:18:58.819764",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 422,
+		"last_price" : 78.97,
+		"time_stamp" : "2024-05-15 12:18:59.727254",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 423,
+		"last_price" : 2912.93,
+		"time_stamp" : "2024-05-15 12:19:00.033623",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 424,
+		"last_price" : 62630.60,
+		"time_stamp" : "2024-05-15 12:21:17.119159",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 425,
+		"last_price" : 78.95,
+		"time_stamp" : "2024-05-15 12:21:17.493199",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 426,
+		"last_price" : 2911.20,
+		"time_stamp" : "2024-05-15 12:21:18.337233",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 427,
+		"last_price" : 62831.99,
+		"time_stamp" : "2024-05-15 12:31:16.384858",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 428,
+		"last_price" : 78.98,
+		"time_stamp" : "2024-05-15 12:31:16.702304",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 429,
+		"last_price" : 2916.42,
+		"time_stamp" : "2024-05-15 12:31:17.547507",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 430,
+		"last_price" : 62855.23,
+		"time_stamp" : "2024-05-15 12:31:53.082769",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 431,
+		"last_price" : 78.98,
+		"time_stamp" : "2024-05-15 12:31:53.432834",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 432,
+		"last_price" : 2917.81,
+		"time_stamp" : "2024-05-15 12:31:54.276622",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 433,
+		"last_price" : 62840.84,
+		"time_stamp" : "2024-05-15 12:37:19.903459",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 434,
+		"last_price" : 79.00,
+		"time_stamp" : "2024-05-15 12:37:20.284544",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 435,
+		"last_price" : 2915.87,
+		"time_stamp" : "2024-05-15 12:37:20.597429",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 436,
+		"last_price" : 62818.19,
+		"time_stamp" : "2024-05-15 12:40:12.369910",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 437,
+		"last_price" : 79.01,
+		"time_stamp" : "2024-05-15 12:40:12.729971",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 438,
+		"last_price" : 2915.00,
+		"time_stamp" : "2024-05-15 12:40:13.030338",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 439,
+		"last_price" : 62714.00,
+		"time_stamp" : "2024-05-15 12:48:04.859453",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 440,
+		"last_price" : 78.93,
+		"time_stamp" : "2024-05-15 12:48:05.200156",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 441,
+		"last_price" : 2911.25,
+		"time_stamp" : "2024-05-15 12:48:05.507361",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 442,
+		"last_price" : 62728.38,
+		"time_stamp" : "2024-05-15 12:51:43.081936",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 443,
+		"last_price" : 78.91,
+		"time_stamp" : "2024-05-15 12:51:43.415047",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 444,
+		"last_price" : 2910.00,
+		"time_stamp" : "2024-05-15 12:51:43.714277",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 445,
+		"last_price" : 62680.15,
+		"time_stamp" : "2024-05-15 12:57:54.577087",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 446,
+		"last_price" : 78.86,
+		"time_stamp" : "2024-05-15 12:57:54.938474",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 447,
+		"last_price" : 2908.21,
+		"time_stamp" : "2024-05-15 12:57:55.239876",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 448,
+		"last_price" : 62792.03,
+		"time_stamp" : "2024-05-15 13:07:53.768460",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 449,
+		"last_price" : 78.89,
+		"time_stamp" : "2024-05-15 13:07:54.071528",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 450,
+		"last_price" : 2907.29,
+		"time_stamp" : "2024-05-15 13:07:54.377864",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 451,
+		"last_price" : 62595.49,
+		"time_stamp" : "2024-05-15 13:17:53.760439",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 452,
+		"last_price" : 78.77,
+		"time_stamp" : "2024-05-15 13:17:54.593992",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 453,
+		"last_price" : 2899.89,
+		"time_stamp" : "2024-05-15 13:17:55.423741",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 454,
+		"last_price" : 62615.67,
+		"time_stamp" : "2024-05-15 13:18:13.233469",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 455,
+		"last_price" : 78.77,
+		"time_stamp" : "2024-05-15 13:18:13.571329",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 456,
+		"last_price" : 2900.79,
+		"time_stamp" : "2024-05-15 13:18:13.877252",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 457,
+		"last_price" : 62465.99,
+		"time_stamp" : "2024-05-15 13:28:13.463576",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 458,
+		"last_price" : 78.56,
+		"time_stamp" : "2024-05-15 13:28:14.092587",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 459,
+		"last_price" : 2899.26,
+		"time_stamp" : "2024-05-15 13:28:14.391189",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 460,
+		"last_price" : 62314.00,
+		"time_stamp" : "2024-05-15 13:38:12.661193",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 461,
+		"last_price" : 78.35,
+		"time_stamp" : "2024-05-15 13:38:12.961391",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 462,
+		"last_price" : 2888.23,
+		"time_stamp" : "2024-05-15 13:38:13.265577",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 463,
+		"last_price" : 62419.99,
+		"time_stamp" : "2024-05-15 13:48:12.645007",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 464,
+		"last_price" : 78.57,
+		"time_stamp" : "2024-05-15 13:48:13.110324",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 465,
+		"last_price" : 2896.91,
+		"time_stamp" : "2024-05-15 13:48:13.411751",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 466,
+		"last_price" : 62429.90,
+		"time_stamp" : "2024-05-15 13:58:13.220881",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 467,
+		"last_price" : 78.60,
+		"time_stamp" : "2024-05-15 13:58:13.520688",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 468,
+		"last_price" : 2896.88,
+		"time_stamp" : "2024-05-15 13:58:14.352233",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 469,
+		"last_price" : 62485.92,
+		"time_stamp" : "2024-05-15 14:08:12.652956",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 470,
+		"last_price" : 78.59,
+		"time_stamp" : "2024-05-15 14:08:13.503474",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 471,
+		"last_price" : 2899.90,
+		"time_stamp" : "2024-05-15 14:08:14.344532",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 472,
+		"last_price" : 62551.99,
+		"time_stamp" : "2024-05-15 14:18:12.721024",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 473,
+		"last_price" : 78.72,
+		"time_stamp" : "2024-05-15 14:18:13.571290",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 474,
+		"last_price" : 2903.73,
+		"time_stamp" : "2024-05-15 14:18:13.864888",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 475,
+		"last_price" : 62541.69,
+		"time_stamp" : "2024-05-15 14:28:12.674284",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 476,
+		"last_price" : 78.54,
+		"time_stamp" : "2024-05-15 14:28:12.982342",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 477,
+		"last_price" : 2897.35,
+		"time_stamp" : "2024-05-15 14:28:13.293372",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 478,
+		"last_price" : 63708.00,
+		"time_stamp" : "2024-05-15 14:38:13.147549",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 479,
+		"last_price" : 79.59,
+		"time_stamp" : "2024-05-15 14:38:13.444790",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 480,
+		"last_price" : 2942.81,
+		"time_stamp" : "2024-05-15 14:38:13.739569",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 481,
+		"last_price" : 63530.27,
+		"time_stamp" : "2024-05-15 14:48:12.670807",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 482,
+		"last_price" : 79.52,
+		"time_stamp" : "2024-05-15 14:48:12.970626",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 483,
+		"last_price" : 2937.64,
+		"time_stamp" : "2024-05-15 14:48:13.810733",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 484,
+		"last_price" : 63670.00,
+		"time_stamp" : "2024-05-15 14:58:12.678084",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 485,
+		"last_price" : 79.70,
+		"time_stamp" : "2024-05-15 14:58:12.973992",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 486,
+		"last_price" : 2944.22,
+		"time_stamp" : "2024-05-15 14:58:13.803800",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 487,
+		"last_price" : 63600.00,
+		"time_stamp" : "2024-05-15 15:08:12.617755",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 488,
+		"last_price" : 79.75,
+		"time_stamp" : "2024-05-15 15:08:12.922834",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 489,
+		"last_price" : 2937.94,
+		"time_stamp" : "2024-05-15 15:08:13.222514",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 490,
+		"last_price" : 63774.00,
+		"time_stamp" : "2024-05-15 15:18:12.639003",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 491,
+		"last_price" : 80.02,
+		"time_stamp" : "2024-05-15 15:18:12.934578",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 492,
+		"last_price" : 2944.65,
+		"time_stamp" : "2024-05-15 15:18:13.232094",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 493,
+		"last_price" : 64900.00,
+		"time_stamp" : "2024-05-15 17:35:19.048121",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 494,
+		"last_price" : 81.12,
+		"time_stamp" : "2024-05-15 17:35:19.395528",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 495,
+		"last_price" : 2990.20,
+		"time_stamp" : "2024-05-15 17:35:20.230637",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 496,
+		"last_price" : 64789.99,
+		"time_stamp" : "2024-05-15 17:38:43.798726",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 497,
+		"last_price" : 81.02,
+		"time_stamp" : "2024-05-15 17:38:44.155013",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 498,
+		"last_price" : 2982.19,
+		"time_stamp" : "2024-05-15 17:38:44.457483",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 499,
+		"last_price" : 64675.80,
+		"time_stamp" : "2024-05-15 17:48:43.238499",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 500,
+		"last_price" : 80.79,
+		"time_stamp" : "2024-05-15 17:48:43.540841",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 501,
+		"last_price" : 2978.07,
+		"time_stamp" : "2024-05-15 17:48:43.845347",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 502,
+		"last_price" : 64760.01,
+		"time_stamp" : "2024-05-15 17:51:30.370354",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 503,
+		"last_price" : 80.80,
+		"time_stamp" : "2024-05-15 17:51:30.721652",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 504,
+		"last_price" : 2978.51,
+		"time_stamp" : "2024-05-15 17:51:31.025139",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 505,
+		"last_price" : 64693.59,
+		"time_stamp" : "2024-05-15 17:58:43.256167",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 506,
+		"last_price" : 80.64,
+		"time_stamp" : "2024-05-15 17:58:43.557909",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 507,
+		"last_price" : 2977.10,
+		"time_stamp" : "2024-05-15 17:58:43.864895",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 508,
+		"last_price" : 64767.98,
+		"time_stamp" : "2024-05-15 18:02:14.240241",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 509,
+		"last_price" : 80.61,
+		"time_stamp" : "2024-05-15 18:02:14.582082",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 510,
+		"last_price" : 2975.80,
+		"time_stamp" : "2024-05-15 18:02:14.889136",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 511,
+		"last_price" : 64920.41,
+		"time_stamp" : "2024-05-15 18:08:43.254497",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 512,
+		"last_price" : 80.84,
+		"time_stamp" : "2024-05-15 18:08:43.570201",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 513,
+		"last_price" : 2979.15,
+		"time_stamp" : "2024-05-15 18:08:43.876495",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 514,
+		"last_price" : 64838.00,
+		"time_stamp" : "2024-05-15 18:18:43.182881",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 515,
+		"last_price" : 80.95,
+		"time_stamp" : "2024-05-15 18:18:43.999301",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 516,
+		"last_price" : 2978.26,
+		"time_stamp" : "2024-05-15 18:18:44.828005",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 517,
+		"last_price" : 64779.35,
+		"time_stamp" : "2024-05-15 18:28:43.183511",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 518,
+		"last_price" : 80.80,
+		"time_stamp" : "2024-05-15 18:28:43.478646",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 519,
+		"last_price" : 2973.02,
+		"time_stamp" : "2024-05-15 18:28:43.775641",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 520,
+		"last_price" : 64826.79,
+		"time_stamp" : "2024-05-15 18:38:43.320157",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 521,
+		"last_price" : 80.78,
+		"time_stamp" : "2024-05-15 18:38:44.172275",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 522,
+		"last_price" : 2972.52,
+		"time_stamp" : "2024-05-15 18:38:44.473685",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 523,
+		"last_price" : 64887.26,
+		"time_stamp" : "2024-05-15 18:43:27.279427",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 524,
+		"last_price" : 80.76,
+		"time_stamp" : "2024-05-15 18:43:27.627898",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 525,
+		"last_price" : 2973.69,
+		"time_stamp" : "2024-05-15 18:43:27.937389",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 526,
+		"last_price" : 65034.85,
+		"time_stamp" : "2024-05-15 18:48:43.291651",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 527,
+		"last_price" : 80.95,
+		"time_stamp" : "2024-05-15 18:48:43.596144",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 528,
+		"last_price" : 2979.68,
+		"time_stamp" : "2024-05-15 18:48:43.896057",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 529,
+		"last_price" : 64779.15,
+		"time_stamp" : "2024-05-15 18:58:43.198418",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 530,
+		"last_price" : 80.92,
+		"time_stamp" : "2024-05-15 18:58:43.501295",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 531,
+		"last_price" : 2973.66,
+		"time_stamp" : "2024-05-15 18:58:43.806323",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 532,
+		"last_price" : 64945.98,
+		"time_stamp" : "2024-05-15 19:08:43.200454",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 533,
+		"last_price" : 81.02,
+		"time_stamp" : "2024-05-15 19:08:43.509627",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 534,
+		"last_price" : 2981.54,
+		"time_stamp" : "2024-05-15 19:08:44.334695",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 535,
+		"last_price" : 64980.00,
+		"time_stamp" : "2024-05-15 19:14:11.962160",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 536,
+		"last_price" : 81.00,
+		"time_stamp" : "2024-05-15 19:14:12.302253",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 537,
+		"last_price" : 2982.01,
+		"time_stamp" : "2024-05-15 19:14:13.142305",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 538,
+		"last_price" : 64955.90,
+		"time_stamp" : "2024-05-15 19:16:03.804808",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 539,
+		"last_price" : 80.96,
+		"time_stamp" : "2024-05-15 19:16:04.689169",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 540,
+		"last_price" : 2979.34,
+		"time_stamp" : "2024-05-15 19:16:04.998776",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 541,
+		"last_price" : 64829.98,
+		"time_stamp" : "2024-05-15 19:18:43.207401",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 542,
+		"last_price" : 80.86,
+		"time_stamp" : "2024-05-15 19:18:43.513351",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 543,
+		"last_price" : 2974.34,
+		"time_stamp" : "2024-05-15 19:18:43.819366",
+		"symbol" : 3,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 544,
+		"last_price" : 65000.00,
+		"time_stamp" : "2024-05-15 19:28:43.186658",
+		"symbol" : 1,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 545,
+		"last_price" : 81.00,
+		"time_stamp" : "2024-05-15 19:28:43.491401",
+		"symbol" : 2,
+		"symbol_name" : null
+	},
+	{
+		"price_id" : 546,
+		"last_price" : 2980.99,
+		"time_stamp" : "2024-05-15 19:28:43.793808",
+		"symbol" : 3,
+		"symbol_name" : null
+	}
+]

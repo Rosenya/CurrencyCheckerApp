@@ -1,0 +1,17 @@
+[
+	{
+		"symbol_id" : 1,
+		"name" : "BTCUSDT",
+		"symbol_name" : null
+	},
+	{
+		"symbol_id" : 2,
+		"name" : "LTCUSDT",
+		"symbol_name" : null
+	},
+	{
+		"symbol_id" : 3,
+		"name" : "ETHUSDT",
+		"symbol_name" : null
+	}
+]
