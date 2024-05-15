@@ -2,12 +2,12 @@ import axios from "axios";
 import { Price } from "../models/Price";
 
 export class PriceDataApi {
-    static getLastPriceByGivenSymbol = async () =>
+    static getLastPriceForGivenSymbol = async () =>
       await axios.get<Price[]>("http://localhost:3000/last/{symbol}");
 
-    static getLastDayPriceBySymbol = async () =>
+    static getLastForAllSymbolsForLastDay = async () =>
         await axios.get<Price[]>("http://localhost:3000/lastday/{symbol}");
 
-    static getLastPriceForAllSymbol = async () =>
+    static getLastPriceForAllSymbols = async () =>
         await axios.get<Price[]>("http://localhost:3000/lastAll");
 }
